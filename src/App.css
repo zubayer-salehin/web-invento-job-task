@@ -1,0 +1,19 @@
+.commentBoxShadow {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.login-register-input {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 3px;
+  border: 1px solid #9dbef4;
+}
+
+.login-register-input:focus {
+  outline: none;
+  border: 1px solid #3680f7;
+}
+
+.button-shadow {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
