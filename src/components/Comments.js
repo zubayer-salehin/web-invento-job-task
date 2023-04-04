@@ -15,7 +15,7 @@ const Comments = () => {
 
     return (
         <div className='grid grid-cols-2 lg:grid-cols-3 gap-10 px-20 py-10'>
-            {comments.map(comment => <SingleComment key={comment?.id} comment={comment} />)}
+            {comments?.map(comment => <SingleComment key={comment?.id} comment={comment} />)}
         </div>
     );
 };
