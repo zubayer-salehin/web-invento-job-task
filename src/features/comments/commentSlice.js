@@ -12,6 +12,7 @@ const commentSlice = createSlice({
     reducers: {
         getComments: (state, action) => {
             state.comments = action.payload
+            localStorage.setItem("comments", JSON.stringify(action.payload))
         },
         removeComment: (state, action) => {
             const existComments = current(state.comments).filter(c => c.id !== action.payload)
