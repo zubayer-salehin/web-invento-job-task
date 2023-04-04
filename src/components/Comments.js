@@ -14,7 +14,7 @@ const Comments = () => {
     }, [dispatch])
 
     return (
-        <div className='grid grid-cols-3 gap-10 px-20 py-10'>
+        <div className='grid grid-cols-2 lg:grid-cols-3 gap-10 px-20 py-10'>
             {comments.map(comment => <SingleComment key={comment?.id} comment={comment} />)}
         </div>
     );
