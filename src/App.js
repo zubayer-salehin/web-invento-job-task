@@ -22,8 +22,8 @@ function App() {
       <div className='grid grid-cols-2 bg-blue-500 text-white px-20 py-4'>
         <h2 className='text-2xl font-semibold'>JOB Task</h2>
         <div className='flex justify-end items-center'>
-          <p onClick={() => handleLoadNewComment()} className='mr-8'>Load Data</p>
-          <p onClick={() => dispatch(modal(modalStatus))} className=''>create new comment</p>
+          <p onClick={() => handleLoadNewComment()} className='mr-8 cursor-pointer'>Load Data</p>
+          <p onClick={() => dispatch(modal(modalStatus))} className='cursor-pointer'>create new comment</p>
         </div>
       </div>
       <Comments />
